@@ -1,4 +1,4 @@
-#Integrantes: Beatriz, Sofia, Gabriel S, Giovana    -    CC2P12
+
 import random
 def exercicioTres():
     
