@@ -28,3 +28,23 @@ df_arquivo2 = df_arquivo2.append(df_arquivo1)
 df_arquivo2.columns = ['A', 'B', 'C', 'D', 'E'] #monta o cabeçalho
 
 df_arquivo2.to_excel(ARQUIVO2, sheet_name='Sheet1', index = False)  #"escreve" o dataframe no excel
+
+
+# pip install pyautogui
+# import pyautogui
+# pyautogui.press('winleft')
+# pyautogui.write('edge')
+# pyautogui.press('enter')
+# pyautogui.write('LINK')
+# pyautogui.press('enter')
+# pyautogui.PAUSE = 0.5
+
+# pyautogui.alert("atualizado")
+
+# -----------
+# power automate
+# abrir edge no link
+# clicar no ...
+# clicar em export data
+# clicar no ok
+# fechar o edge
