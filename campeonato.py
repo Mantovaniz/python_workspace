@@ -12,7 +12,7 @@ for i in range(quantTimes):
 
 print("\nTimes cadastrados: " , times)
 
-quantChaves = int(quantTimes/2)
+quantChaves = int(input("\nDigite a quantidade de chaves que deseja criar: "))
 
 print("\nChaves criadas: ")
 splited = [times[i::quantChaves] for i in range(quantChaves)]
